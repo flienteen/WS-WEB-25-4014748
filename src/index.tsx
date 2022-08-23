@@ -19,4 +19,4 @@ type Demo = {
 } & { p: null | number }
 
 type DemoKeys = UnionToTuple<keyof Demo>
-export const domoKeys: DemoKeys = ['key1', 'a', 'key5', 'b', 'key2', 'p'];
+export const domoKeys: DemoKeys = [];
